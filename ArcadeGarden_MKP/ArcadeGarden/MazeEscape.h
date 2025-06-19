@@ -12,6 +12,7 @@ private:
     int Do_Leaderboard();
     int Do_Exit_Game();
 public:
+    MazeEscape() {};
     MazeEscape(const Player& newPlayer)
         : GameBase(newPlayer) {
     }

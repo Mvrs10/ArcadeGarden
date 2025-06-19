@@ -124,6 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArcadeGarden.cpp" />
+    <ClCompile Include="GameBase.cpp" />
+    <ClCompile Include="GameEconomy.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameBase.h" />
