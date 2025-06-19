@@ -1,6 +1,6 @@
 <h1>Arcade Garden</h1>
 
- ### 🎲 [Gameplay Demo](https://drive.google.com/file/d/1sN2kNeNHzkgY5eqiwF2TsHL8aVTZJezh/view?usp=sharing)
+ ### 🎲 [Gameplay Demo]()
 
 <h2>Description</h2>
 A collection of enjoyable 2D console games developed with C++. Features: Leaderboard, in-game currency.
