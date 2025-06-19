@@ -27,6 +27,9 @@
     <ClCompile Include="GameEconomy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MazeEscape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameBase.h">

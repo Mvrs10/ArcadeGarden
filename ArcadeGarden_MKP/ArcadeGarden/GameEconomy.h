@@ -13,7 +13,7 @@ class Wallet {
 public:
     std::weak_ptr< Item > itemPtr; // Creates a cycle
     ~Wallet() { std::cout << "Wallet destroyed" << endl; }
-    template <typename T> T AddCurrency(T extra, T current); // Template
+    template <typename T> T AddCurrency(T extra, T current); // TODO: Develop proper implementation of in-game currency.
 };
 
 double Do_Game_Utility();
