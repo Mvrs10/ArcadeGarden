@@ -38,3 +38,6 @@ obj/
 *.user
 *.suo
 *.cache
+/ArcadeGarden_MKP/x64/Debug
+/ArcadeGarden_MKP/ArcadeGarden/x64/Debug/ArcadeGarden.tlog
+/ArcadeGarden_MKP/ArcadeGarden/x64/Debug
