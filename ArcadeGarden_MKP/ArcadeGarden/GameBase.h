@@ -1,6 +1,8 @@
 #pragma once
+#include <string>
+
 struct Player {
-    int id;
+    int player_id;
     char name[20];
     char email[40];
     int age;
@@ -13,6 +15,9 @@ struct Player {
 class GameBase {
 protected:
     Player player;
+    int game_id = 0;
+    std::string title = "";
+    std::string genre = "";
 public:
     GameBase() {
         player = { 0,"Default_MKP", "Default@email.com", 20, 1, 0.0, true, 50 };

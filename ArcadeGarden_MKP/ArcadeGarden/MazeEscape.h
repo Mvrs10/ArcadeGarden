@@ -1,5 +1,7 @@
 #pragma once
+#include <string>
 #include "GameBase.h"
+
 
 class MazeEscape : public GameBase { // Inheritance
 private:
@@ -12,7 +14,10 @@ private:
     int Do_Leaderboard();
     int Do_Exit_Game();
 public:
-    MazeEscape() {};
+    MazeEscape() {
+        game_id = 1;
+        genre = "Puzzle";
+    };
     MazeEscape(const Player& newPlayer)
         : GameBase(newPlayer) {
     }

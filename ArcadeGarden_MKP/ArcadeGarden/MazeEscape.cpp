@@ -84,7 +84,7 @@ int MazeEscape::Do_Save_Game() {
     }
 
     outFile.close();
-    std::cout << "Player data written to binary file - ID: " << player.id << std::endl;
+    std::cout << "Player data written to binary file - ID: " << player.player_id << std::endl;
 
     std::ofstream appendFile(LEADERBOARD, std::ios::app);
     if (!appendFile) {
@@ -109,7 +109,7 @@ int MazeEscape::Do_Load_Game() {
     inFile.read(reinterpret_cast<char*>(&player), sizeof(player));
     inFile.close();
     cout << "Read player info from binary file" << endl;
-    cout << "ID: " << player.id << ", Name: " << player.name
+    cout << "ID: " << player.player_id << ", Name: " << player.name
         << ", Email: " << player.email << ", Age: " << player.age
         << ", Score: " << player.score
         << ", Currency: $" << std::setprecision(2) << std::fixed << player.currency << ", Music: " << (player.musicOn ? "ON" : "OFF") << ", Volume: " << (player.musicOn ? player.volume : 0) << endl;
