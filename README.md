@@ -10,6 +10,7 @@ A collection of enjoyable 2D console games developed with C++. Features: Leaderb
 <h2>Languages and Utilities Used</h2>
 
 - <b>C++</b>
+- <b>MS SQL Server</b>
 
 <h2>Future updates/improvment</h2>
 
@@ -17,6 +18,11 @@ A collection of enjoyable 2D console games developed with C++. Features: Leaderb
 - <b>More games...</b>
 
 <h2>Gameplay Screenshots:</h2>
+
+<p align="center">
+Data Structure <br>
+<img src="https://i.imgur.com/ruQjwl8.jpeg" height="80%" width="80%" alt="Main Menu"/>
+</p>
 
 <p align="center">
 Main Menu <br>
