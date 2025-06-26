@@ -20,7 +20,7 @@ A collection of enjoyable 2D console games developed with C++. Features: Leaderb
 <h2>Gameplay Screenshots:</h2>
 
 <p align="center">
-Data Structure <br>
+Database Structure <br>
 <img src="https://i.imgur.com/ruQjwl8.jpeg" height="80%" width="80%" alt="Main Menu"/>
 </p>
 
